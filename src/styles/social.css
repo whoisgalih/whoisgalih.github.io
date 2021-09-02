@@ -1,0 +1,25 @@
+.Tilt,
+.Tilt > a {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Tilt {
+  width: 2.5em;
+  height: 2.5em;
+  background-color: black;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.1);
+  transform-style: preserve-3d;
+  border-radius: 0.5em;
+}
+
+.Tilt > a {
+  margin: 0;
+  transform: translateZ(20px);
+}
+
+.Tilt > a > svg {
+  width: 70%;
+  max-height: 70%;
+}
